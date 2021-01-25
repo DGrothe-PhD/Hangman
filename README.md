@@ -11,14 +11,14 @@ After finding GitHub, this was the only *"useful"* project to upload as to test 
 
 I plan to convert this to pure C and clean up the code. Then I'll improve it where I can.
 
-## Changelog ##
+## Recent changes ##
 
 ### 0.4.1.4 ###
 * Circumventing Curses support as in https://github.com/alnzambr/Hangman
 * Added exception handling try--catch so crash-safe if words.txt is not found
 * Minor code changes
 
-## Changes as forked ##
+## Prior changes before fork ##
 ### 0.4 ###
 * Added Curses support
 * Single RNG seed
