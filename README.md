@@ -15,11 +15,12 @@ I plan to convert this to pure C and clean up the code. Then I'll improve it whe
 
 ### 0.4.1.4 ###
 * Circumventing Curses support as in https://github.com/alnzambr/Hangman
-* Adding exception handling try--catch so crash-safe if words.txt is not found
+* Added exception handling try--catch so crash-safe if words.txt is not found
 * Minor code changes
 
+## Changes as forked ##
 ### 0.4 ###
-* ~Added Curses support~
+* Added Curses support
 * Single RNG seed
 * Switch Cleanup
 * Removed function "GetWordLength"
