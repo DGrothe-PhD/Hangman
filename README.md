@@ -1,7 +1,7 @@
 # C++ Hangman ReadMe #
 **Name:** Hangman  
-**Version:** 0.4.1.3  
-**Contributors:** Xethron  
+**Version:** 0.4.1.4  
+**Contributors:** Xethron
 
 Simple Hangman game used for educational purposes.
 
@@ -13,8 +13,13 @@ I plan to convert this to pure C and clean up the code. Then I'll improve it whe
 
 ## Changelog ##
 
+### 0.4.1.4 ###
+* Circumventing Curses support as in https://github.com/alnzambr/Hangman
+* Adding exception handling try--catch so crash-safe if words.txt is not found
+* Minor code changes
+
 ### 0.4 ###
-* Added Curses support
+* ~Added Curses support~
 * Single RNG seed
 * Switch Cleanup
 * Removed function "GetWordLength"
